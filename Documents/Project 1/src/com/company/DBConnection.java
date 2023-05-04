@@ -8,7 +8,7 @@ public class DBConnection {
     public static Connection connect() {
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/japanese", "root", "root");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/japanese", "//username//", "//passsword//");
         } catch (Exception e) {
             e.printStackTrace();
         }
